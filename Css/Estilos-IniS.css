@@ -1,0 +1,96 @@
+.Cabecera{
+    background-color: bisque;
+    color: black;
+    margin: 9px;
+    text-align: center;
+}
+/* Estilo general del cuerpo */
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: bisque;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column; /* Centra horizontalmente */
+    align-items: center;     /* Centra verticalmente */
+    height: 100vh;           /* Ocupa toda la pantalla */
+}
+
+/* Estilos para el contenedor del formulario */
+form {
+    background-color: rgba(235, 249, 255, 0.87);;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 300px;            /* Ancho fijo del formulario */
+    text-align: center;      /* Centra el contenido dentro del formulario */
+}
+
+/* Estilo para el título */
+h1 {
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+/* Estilos para las etiquetas de texto */
+label {
+    font-size: 16px;
+    color: #333;
+    display: block;
+    text-align: left;        /* Alinea las etiquetas a la izquierda */
+    margin-bottom: 5px;
+}
+
+/* Estilos para los campos de entrada */
+input[type="text"], input[type="password"] {
+    width: 100%;             /* Ocupa el 100% del ancho del formulario */
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+/* Estilos para el botón de envío */
+input[type="submit"] {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;             /* Botón de ancho completo */
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+/* Estilo para el botón de envío en hover */
+input[type="submit"]:hover {
+    background-color: #555;
+}
+
+/* Estilo para el enlace de registro */
+a {
+    color: #333;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+footer{
+    width: 100%;
+    background-color: bisque;
+    margin-top: 5%;
+    padding: 2% 0;
+}
+
+footer p{
+    color: black;
+    font-size: 15px;
+    text-align: center;
+}

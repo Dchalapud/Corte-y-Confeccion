@@ -1,0 +1,91 @@
+.Cabecera{
+    background-color: bisque;
+    color: black;
+    margin: 20px;
+    text-align: center;
+}
+/* Estilo general del cuerpo */
+body {
+    font-family: Arial, sans-serif;
+    background-color: bisque;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;  /* Centra horizontalmente */
+    align-items: center;      /* Centra verticalmente */
+    height: 100vh;            /* Ocupa toda la pantalla */
+}
+
+/* Estilos para el contenedor del formulario */
+form {
+    background-color: rgba(235, 249, 255, 0.87);;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    width: 400px;              /* Ancho del formulario */
+    text-align: center;
+}
+
+/* Estilo para el título */
+h1 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* Estilo para las etiquetas */
+label {
+    display: block;
+    text-align: left;
+    font-size: 16px;
+    color: #333;
+    margin-bottom: 5px;
+}
+
+/* Estilo para los campos de texto */
+input[type="text"], textarea {
+    width: 100%;               /* Ocupa el 100% del ancho del formulario */
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+/* Estilo para el área de texto */
+textarea {
+    resize: vertical;           /* Permite ajustar la altura del textarea */
+    height: 150px;              /* Altura inicial */
+}
+
+/* Estilos para el botón de envío */
+input[type="submit"] {
+    background-color: #28a745;
+    color: #fff;
+    padding: 12px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+/* Cambia el color del botón en hover */
+input[type="submit"]:hover {
+    background-color: #218838;
+}
+
+footer{
+    width: 100%;
+    background-color: bisque;
+    margin-top: 5%;
+    padding: 2% 0;
+}
+
+footer p{
+    color: black;
+    font-size: 15px;
+    text-align: center;
+}

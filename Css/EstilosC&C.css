@@ -1,0 +1,117 @@
+body {
+    background-color: rgba(235, 249, 255, 0.87); /* Azul claro */
+    margin: 0;
+    padding: 0;
+}
+
+.custom-navbar {
+    background-color: bisque; /* Cambia a tu color deseado */
+}
+
+.Cabecera{
+    
+    color: black;
+}
+
+/*IMG*/
+
+.ImagenI{
+    width: 100%;      /* Asegura que ocupe el 100% del ancho disponible */
+    height: 450px;     /* el alto de la imagen*/
+    margin: 0 auto;   /* Asegura que no haya margen extra y centra la imagen si es necesario */
+}
+
+/*Productos*/
+
+.productos-gred{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 70px;
+    margin: 100px, 0;
+}
+
+.productos-carta{
+    background-color: #f0e4ec;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    overflow: hidden;
+    transition: transform 0.3s, ease;
+}
+
+.productos-carta:hover{
+    transform: scale(1.05);
+}
+
+.productos-imagen{
+    width: 100%;
+    object-fit: cover;
+}
+
+.productos-imagen4{
+    width: 100%;
+    object-fit: cover;
+}
+
+.productos-info{
+    text-align: center;
+    padding: 15px;
+}
+
+.productos-nombre{
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    margin-bottom: 10px;
+}
+
+.productos-descripcion{
+    font-size: 12px;
+    color: black;
+    margin-bottom:15px ;
+}
+
+.productos-presio{
+    font-size: 16px;
+    color: black;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.boton-comprar{
+    background-color: rgb(96, 189, 252);
+    color: rgb(0, 0, 0);
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: backgound-color 0.3s ease;
+}
+
+.boton-comprar :hover{
+    background-color: #080808;
+}
+
+/*Quienes somos*/
+
+.card{
+    text-align: center;
+    background-color: bisque;
+}
+
+.card-body{
+    border: 0;
+}
+
+/*Pie de pagina*/
+
+footer{
+    width: 100%;
+    background-color: bisque;
+    margin-top: 5%;
+    padding: 5% 0;
+}
+
+footer p{
+    color: black;
+    font-size: 15px;
+    text-align: center;
+}
